@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lightpurple: #B3A0CD;
+  --color-lime: #D1EF53;
+  --color-black2: #1E1E1E;
+  --color-white2: #E9E3DC;
+  --color-background: #232323;
+  --font-primary: 'Bowlby One' , 'sans-serif';
+  --font-secondary: 'Sofia Pro', 'sans-serif';
+}
+
+ul[title]::before{
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 4px 0;
+  font-family: var(--font-primary);
+}
