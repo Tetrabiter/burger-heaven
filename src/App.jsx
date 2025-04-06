@@ -6,10 +6,12 @@ import Main from "./components/Main"
 function App() {
 
   return (
-    <div className="w-full h-[120vh] mx-5% bg-[var(--color-background)]">
-      <Header />
-      <Main />
-      <Footer />
+    <div className="bg-[var(--color-background)]">
+      <div className="w-[1320px] mx-auto pt-[2%]">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </div>
   )
 }
