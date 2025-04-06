@@ -27,7 +27,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className='flex'>
+                <div className='flex gap-5 mt-[3%]'>
                     <div>
                         <img src={FrenchFriesSRC} alt="french fries" />
                         <div>
@@ -42,8 +42,8 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className=''>
-                    <marquee className="text-5xl font-secondary font-bold text-[var(--color-lime)] uppercase" behavior="" direction="">the best burger i’ve ever had</marquee>
+                <div className='mt-[4%]'>
+                    <marquee className="text-5xl font-secondary font-bold text-[var(--color-lime)] uppercase pb-[4%]" behavior="" direction="">the best burger i’ve ever had</marquee>
 
                     <div>
                         <img src={CustomersSRC} alt="customers" className=""/>
