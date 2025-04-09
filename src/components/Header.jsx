@@ -2,9 +2,9 @@ const Header = () => {
     return ( 
         <header className="">
 
-            <div className="font-primary flex justify-between items-center text-[var(--color-white2)]">
+            <div className="font-primary font-extrabold flex justify-between items-center text-[var(--color-white2)]">
                 <div>
-                    <p className="font-extrabold text-2xl">BURGER HEAVEN</p>
+                    <p className="text-2xl tracking-tighter">BURGER HEAVEN</p>
                 </div>
                 <div className="font-bold flex items-center gap-4">
                     <a href="#">ABOUT</a>

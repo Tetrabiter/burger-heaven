@@ -8,6 +8,7 @@
   --color-background: #232323;
   --font-primary: 'Bowlby One' , 'sans-serif';
   --font-secondary: 'Sofia Pro', 'sans-serif';
+  --tw-tracking: '-0.08rem';
 }
 
 ul[title]::before{

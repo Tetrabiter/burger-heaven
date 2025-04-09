@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="mx-[5%] pt-[4%]">
                 <div className="flex gap-3 justify-between">
                     <div>
-                        <p className="font-primary font-bold">BURGER HEAVEN</p>
+                        <p className="font-primary text-3xl font-extrabold">BURGER <br /> HEAVEN</p>
                     </div>
                     <div>
                         <ul title="MORE">
