@@ -32,15 +32,15 @@ const Main = () => {
                 <div className='flex gap-5 mt-[3%]'>
                     <div>
                         <img src={FrenchFriesSRC} alt="french fries" />
-                        <div className='bg-[var(--color-black2)] text-[var(--color-white2)] rounded-4xl p-6 text-3xl font-extrabold tracking-tight'>
-                            <p>asdfasdfaf</p>
+                        <div className='bg-[var(--color-black2)] text-[var(--color-white2)] absolute -mt-[10%] ml-[2%] rounded-4xl p-6 text-3xl font-extrabold tracking-tight'>
+                            <p>salt & Vinegarfrench fries</p>
                             <p className='text-[var(--color-lightpurple)] text-2xl'>dasfafaf</p>
                         </div>
                     </div>
                     <div>
-                        <img src={ChickenSandwichSRC} alt="chicken sandwich" />
-                        <div className='bg-[var(--color-black2)] text-[var(--color-white2)] rounded-4xl p-6 text-3xl font-extrabold tracking-tight'>
-                            <p>asdfasdfaf</p>
+                        <img src={ChickenSandwichSRC} alt="chicken sandwich" className=''/>
+                        <div className='bg-[var(--color-black2)] text-[var(--color-white2)] absolute -mt-[10%] ml-[2%] rounded-4xl p-6 text-3xl font-extrabold tracking-tight'>
+                            <p>crispy chicken sandwich</p>
                             <p className='text-[var(--color-lightpurple)] text-2xl'>dasfafaf</p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Main = () => {
                             <h1 className='text-7xl'>ORDER ONLINE OR COME VISIT US TODAY</h1>
                         </div>
                         <div>
-                            <button className='bg-[var(--color-lime)] text-[var(--color-black2)] px-4 py-2'>GET STARTED</button>
+                            <button className='bg-[var(--color-lime)] text-[var(--color-black2)] px-6 py-3 font-extrabold tracking-tighter'>GET STARTED</button>
                         </div>
                     </div>
                 </div>
