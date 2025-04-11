@@ -1,3 +1,5 @@
+# Burger-Heaven restaurant
+
 ## An interactive one-page burger restaurant website built with Framer. This project showcases modern web design practices and animations, making it ideal for landing pages.
 
 ### 📌 Preview
