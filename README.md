@@ -15,14 +15,14 @@
     React (integrated in Framer) — For components and interaction logic.
 
 ### 📁 Project Structure
-
+```
 ├── assets/              # Images and icons
 ├── components/          # Reusable React components
 ├── pages/               # Website pages
 ├── public/              # Public resources
 ├── styles/              # Styles and themes
 └── README.md            # Project documentation
-
+```
 ### 🎨 Design Features
 
     Scroll animations: Smooth element appearances on scroll.
