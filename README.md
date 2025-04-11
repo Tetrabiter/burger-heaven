@@ -1,12 +1,36 @@
-# React + Vite
+## An interactive one-page burger restaurant website built with Framer. This project showcases modern web design practices and animations, making it ideal for landing pages.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📌 Preview
 
-Currently, two official plugins are available:
+    link:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🧰 Technologies Used
 
-## Expanding the ESLint configuration
+    Framer — A visual builder for creating animated and responsive websites.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Figma — A tool for interface design and prototyping.
+
+    React (integrated in Framer) — For components and interaction logic.
+
+### 📁 Project Structure
+
+├── assets/              # Images and icons
+├── components/          # Reusable React components
+├── pages/               # Website pages
+├── public/              # Public resources
+├── styles/              # Styles and themes
+└── README.md            # Project documentation
+
+### 🎨 Design Features
+
+    Scroll animations: Smooth element appearances on scroll.
+
+    Interactive buttons: Hover and click effects.
+
+    Responsive design: Optimized for various devices.
+
+    Modern typography and colors: Utilizes current fonts and color schemes.
+
+### 📄 License
+
+    This project is licensed under the MIT license. """
