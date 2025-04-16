@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <main>
             <div>
-                
+
                 <div>
                     <div className='w-full flex justify-center'>
                         <h1 className='w-2/3 text-[var(--color-white2)] text-8xl font-extrabold text-center tracking-tighter'>NEW YORK’S FAVORITE ORGANIC HAMBURGER JOINT</h1>
@@ -29,19 +29,22 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className='flex gap-5 mt-[3%]'>
-                    <div>
-                        <img src={FrenchFriesSRC} alt="french fries" />
-                        <div className='bg-[var(--color-black2)] text-[var(--color-white2)] absolute -mt-[10%] ml-[2%] rounded-4xl p-6 text-3xl font-extrabold tracking-tight'>
-                            <p>salt & Vinegarfrench fries</p>
-                            <p className='text-[var(--color-lightpurple)] text-2xl'>dasfafaf</p>
+                <div className="flex flex-col md:flex-row gap-8 mt-8 px-4">
+                    {/* French Fries Card */}
+                    <div className="relative w-full md:w-1/2">
+                        <img src={FrenchFriesSRC} alt="french fries" className="w-full h-auto object-cover rounded-2xl" />
+                        <div className="absolute bottom-4 left-4 bg-[var(--color-black2)] text-[var(--color-white2)] rounded-3xl p-4 sm:p-6 text-xl sm:text-2xl lg:text-3xl uppercase font-extrabold tracking-tight w-[90%] max-w-[400px]">
+                            <p>Salt & Vinegar French Fries</p>
+                            <p className="text-[var(--color-lightpurple)] text-base sm:text-xl">Order Online</p>
                         </div>
                     </div>
-                    <div>
-                        <img src={ChickenSandwichSRC} alt="chicken sandwich" className=''/>
-                        <div className='bg-[var(--color-black2)] text-[var(--color-white2)] absolute -mt-[10%] ml-[2%] rounded-4xl p-6 text-3xl font-extrabold tracking-tight'>
-                            <p>crispy chicken sandwich</p>
-                            <p className='text-[var(--color-lightpurple)] text-2xl'>dasfafaf</p>
+
+                    {/* Chicken Sandwich Card */}
+                    <div className="relative w-full md:w-1/2">
+                        <img src={ChickenSandwichSRC} alt="chicken sandwich" className="w-full h-auto object-cover rounded-2xl" />
+                        <div className="absolute bottom-4 left-4 bg-[var(--color-black2)] text-[var(--color-white2)] rounded-3xl p-4 sm:p-6 text-xl sm:text-2xl lg:text-3xl uppercase font-extrabold tracking-tight w-[90%] max-w-[400px]">
+                            <p>Crispy Chicken Sandwich</p>
+                            <p className="text-[var(--color-lightpurple)] text-base sm:text-xl">Order Online</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +53,7 @@ const Main = () => {
                     <marquee className="text-8xl font-secondary font-extrabold text-[var(--color-lime)] uppercase pb-[4%] tracking-tighter" behavior="" direction="">the best burger i’ve ever had</marquee>
 
                     <div>
-                        <img src={CustomersSRC} alt="customers" className=""/>
+                        <img src={CustomersSRC} alt="customers" className="" />
                     </div>
                 </div>
 
