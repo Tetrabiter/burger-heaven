@@ -1,55 +1,53 @@
 const Footer = () => {
     return (
-        <footer className="w-80% bg-[var(--color-lightpurple)] h-80 rounded-2xl">
-            <div className="mx-[5%] pt-[4%]">
-                <div className="flex gap-3 justify-between">
+        <footer className="w-full bg-[var(--color-lightpurple)] rounded-2xl px-4 py-6">
+            <div className="max-w-screen-xl mx-auto space-y-6">
+                <div className="flex flex-col md:flex-row md:justify-between gap-y-6 gap-x-6">
                     <div>
-                        <p className="font-primary text-3xl font-extrabold">BURGER <br /> HEAVEN</p>
+                        <p className="font-primary text-3xl font-extrabold text-center md:text-left">
+                            BURGER <br /> HEAVEN
+                        </p>
                     </div>
-                    <div>
-                        <ul title="MORE">
-                            <a href="">
-                                <li>About</li>
-                            </a>
-                            <a href="">
-                                <li>Menu</li>
-                            </a>
-                            <a href="">
-                                <li>Locations</li>
-                            </a>
-                            <a href="">
-                                <li>Privacy</li>
-                            </a>
+
+                    <div className="text-center md:text-left">
+                        <ul className="space-y-2 font-medium" title="MORE">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Locations</a></li>
+                            <li><a href="">Privacy</a></li>
                         </ul>
                     </div>
-                    <div>
-                        <ul className="font-secondary" title="HOURS">
-                            <a href="">
-                                <li>Open from</li>
-                            </a>
-                            <a href="">
-                                <li>11AM to</li>
-                            </a>
-                            <a href="">
-                                <li>11PM daily</li>
-                            </a>
+
+                    <div className="text-center md:text-left">
+                        <ul className="font-secondary space-y-2" title="HOURS">
+                            <li><a href="">Open from</a></li>
+                            <li><a href="">11AM to</a></li>
+                            <li><a href="">11PM daily</a></li>
                         </ul>
                     </div>
-                    <div className="w-3xs relative">
-                        <p className="font-bold font-primary">JOIN OUR NEWSLETTER</p>
-                        <div className="flex items-center mt-6">
-                            <input className="border p-2 rounded-lg w-full" type="text" />
-                            <button className="font-bold absolute right-[5%]">SUBMIT</button>
+
+                    <div className="w-full md:w-64">
+                        <p className="font-bold font-primary text-center md:text-left">JOIN OUR NEWSLETTER</p>
+                        <div className="flex flex-col sm:flex-row gap-2 mt-4">
+                            <input
+                                className="border p-2 rounded-lg w-full"
+                                type="text"
+                                placeholder="Enter your email"
+                            />
+                            <button className="bg-black text-white px-4 py-2 rounded-lg font-bold">
+                                SUBMIT
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-between">
-                    <p>Copyright Burger Heaven</p>
-                    <p>Privacy Policy</p>
+
+                <div className="flex flex-col md:flex-row justify-between items-center text-sm text-center gap-y-2">
+                    <p>&copy; 2025 Burger Heaven</p>
+                    <p><a href="">Privacy Policy</a></p>
                 </div>
             </div>
         </footer>
     );
-}
+};
 
 export default Footer;
